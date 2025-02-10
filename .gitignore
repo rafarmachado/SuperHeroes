@@ -19,8 +19,6 @@ build/
 *.mode2v3
 *.perspectivev3
 xcuserdata/
-*.xcodeproj/
-*.xcworkspace/
 
 # 🛠️ Swift Package Manager
 Package.resolved
