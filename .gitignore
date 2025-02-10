@@ -1,0 +1,69 @@
+# 🏗️ Build e Dependências
+DerivedData/
+Pods/
+Carthage/
+Carthage/Checkouts
+Carthage/Build
+Carthage/Build/
+SwiftPackageManager/
+.swiftpm/
+build/
+
+# 🚀 Xcode e Configuração
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcodeproj/
+*.xcworkspace/
+
+# 🛠️ Swift Package Manager
+Package.resolved
+.swiftpm/
+
+# 🔒 Arquivos Sensíveis
+*.keychain
+*.xcconfig
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/test_output/*
+# Se estiver usando o Firebase, descomente a linha abaixo
+# GoogleService-Info.plist
+
+# 📱 Simulador iOS
+.DS_Store
+*.swp
+*.swo
+*.idea
+.idea/
+*.DS_Store
+
+# 📝 Logs e Cache
+*.log
+*.swp
+*.swo
+*.lock
+*.pyc
+*.pyo
+*.pyd
+*.gz
+*.zip
+
+# 🔹 Git LFS
+.git/lfs/
+
+# 🔥 Arquivos de Ambiente (caso use dotenv)
+.env
+.env.*
+
+# 🌐 Node.js e Yarn (caso tenha alguma integração)
+node_modules/
+yarn.lock
+package-lock.json
